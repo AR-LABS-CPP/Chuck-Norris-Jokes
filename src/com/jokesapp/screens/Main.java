@@ -27,7 +27,7 @@ public class Main extends javax.swing.JFrame {
         
         apiInterface = APIClient.getClient().create(APIInterface.class);
   
-        image = new ImageIcon(getClass().getResource("/com/retrofit/assets/chucknorris_logo.png"));
+        image = new ImageIcon(getClass().getResource("/com/jokesapp/assets/chucknorris_logo.png"));
         scaledImage = image.getImage().getScaledInstance(200, 200, Image.SCALE_SMOOTH);
         lblImage.setIcon(new ImageIcon(scaledImage));
         
